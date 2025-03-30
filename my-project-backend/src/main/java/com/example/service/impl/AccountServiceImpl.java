@@ -185,6 +185,16 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, Account> impl
     }
 
     /**
+     * 通过用户id查找用户
+     * @param id 用户id
+     * @return 账户实体
+     */
+    @Override
+    public Account findAccountById(int id) {
+        return this.query().eq("id", id).one();
+    }
+
+    /**
      * 查询指定邮箱的用户是否已经存在
      * @param email 邮箱
      * @return 是否存在
