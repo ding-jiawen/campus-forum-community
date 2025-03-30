@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 前后端分离项目（JWT方案）
 采用SpringBoot3 + Vue3编写的前后端分离模版项目，集成多种技术栈，使用JWT校验方案。
 ***
@@ -24,3 +25,7 @@
 * 采用Element-Plus作为UI组件库
 * 使用VueUse适配深色模式切换
 * 使用unplugin-auto-import按需引入，减少打包后体积
+=======
+# campus-forum-community
+校园论坛交流社区
+>>>>>>> 09d09227f6bb0442e27cd04ac88b3117ba302534
