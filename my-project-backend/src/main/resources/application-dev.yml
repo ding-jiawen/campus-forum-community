@@ -9,7 +9,7 @@ spring:
     username: dingjw1102@163.com
     password: MKSxYCVh92JpFtUs
   rabbitmq:
-    addresses: 192.168.0.100
+    addresses: 192.168.0.102
     username: admin
     password: admin
     virtual-host: /
